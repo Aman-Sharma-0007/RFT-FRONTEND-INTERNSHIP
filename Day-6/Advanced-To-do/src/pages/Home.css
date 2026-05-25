@@ -1,0 +1,47 @@
+.home {
+  min-height: calc(100vh - 60px);
+  background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 40px;
+}
+
+.home-content h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.home-content h1 span {
+  color: #e94560;
+}
+
+.home-content p {
+  font-size: 1.1rem;
+  color: #aaa;
+  margin-bottom: 32px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-content button {
+  background: #e94560;
+  color: white;
+  border: none;
+  padding: 14px 32px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.home-content button:hover {
+  background: #c73652;
+  transform: scale(1.03);
+}
