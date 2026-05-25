@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f4ff;
+  color: #1a1a2e;
+}
+
+nav {
+  background: #1a1a2e;
+  padding: 16px 32px;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #7c9ef8;
+}
+
+nav .brand {
+  font-size: 20px;
+  font-weight: 700;
+  color: #7c9ef8;
+  margin-right: auto;
+}
