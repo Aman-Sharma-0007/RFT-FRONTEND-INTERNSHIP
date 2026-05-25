@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.container.light {
+  background-color: #ffffff;
+  color: #111111;
+}
+
+.container.dark {
+  background-color: #1a1a2e;
+  color: #eaeaea;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 32px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+.nav-links a:hover {
+  opacity: 1;
+}
+
+.nav-links a.active {
+  opacity: 1;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.light .nav-links a {
+  color: #111111;
+}
+
+.dark .nav-links a {
+  color: #eaeaea;
+}
+
+/* Toggle button */
+button {
+  padding: 10px 22px;
+  font-size: 0.95rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.light button {
+  background-color: #111111;
+  color: #ffffff;
+}
+
+.dark button {
+  background-color: #eaeaea;
+  color: #111111;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+/* Page content */
+.main-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 500px;
+  text-align: center;
+  padding: 40px;
+}
+
+.page h2 {
+  font-size: 1.8rem;
+}
+
+.page p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  opacity: 0.85;
+}
