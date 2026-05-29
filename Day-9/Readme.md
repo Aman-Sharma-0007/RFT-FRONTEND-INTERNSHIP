@@ -34,7 +34,7 @@ src/
 
 ```bash
 # Clone the repository
-git clone https://github.com/Aman-Sharma-0007/RFT-FRONTEND-INTERNSHIP/tree/main/Day-17
+git clone https://github.com/Aman-Sharma-0007/RFT-FRONTEND-INTERNSHIP/tree/main/Day-9
 
 # Navigate to project folder
 cd expense-tracker
