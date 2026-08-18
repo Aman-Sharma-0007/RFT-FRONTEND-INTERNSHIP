@@ -95,4 +95,4 @@ http://localhost:3000
 
 ## 🔗 Connect
 
-Made  during RUHIL FUTURE TECHNOLOGIES BACKEND Internship
+Made  during RUHIL FUTURE TECHNOLOGIES FRONTEND Internship
